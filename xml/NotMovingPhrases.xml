@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NotMovingPhrasesData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <notMovingPhrasesList groupname = "Not Moving Phrases Texts">
+    <NotMovingPhrase elementId = "0">
+      <notMovingPhraseLabel>0 Illo</notMovingPhraseLabel>
+      <phrase>Illo, llevas mucho en este sitio. ¡Prueba a mirar en otra calle!</phrase>
+    </NotMovingPhrase>
+
+    <NotMovingPhrase elementId = "1">
+      <notMovingPhraseLabel>1 Espabila</notMovingPhraseLabel>
+      <phrase>¡Espabila tío! ¡Llevas aquí ya un siglo y medio!</phrase>
+    </NotMovingPhrase>
+
+    <NotMovingPhrase elementId = "2">
+      <notMovingPhraseLabel>2 Mueve el culo</notMovingPhraseLabel>
+      <phrase>Esta calle ya te la sabes, ¡mueve el culo a otra!</phrase>
+    </NotMovingPhrase>
+
+    <NotMovingPhrase elementId = "3">
+      <notMovingPhraseLabel>3 Loco</notMovingPhraseLabel>
+      <phrase>¡Loco, aprovecha el tiempo y explora otros lugares!</phrase>
+    </NotMovingPhrase>
+
+    <NotMovingPhrase elementId = "4">
+      <notMovingPhraseLabel>4 Enga</notMovingPhraseLabel>
+      <phrase>¡Enga tío! ¡Es hora de ver que hay más allá!</phrase>
+    </NotMovingPhrase>
+  </notMovingPhrasesList>
+</NotMovingPhrasesData>

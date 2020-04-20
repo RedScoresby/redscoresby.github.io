@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DidYouKnowData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--
+  A continuación viene explicado cuál es el formato de cada entrada de Did You Know.
+  Siempre que se cree una nueva entrada, debe seguir este orden y estar dentro de la etiqueta de <didYouKnowElementsList>, como el resto de elementos.
+
+  <DidYouKnowElement> Señaliza el elemento actual. El elementId es para llevar un orden.
+
+  <didYouKnowLabel> Etiqueta de la entrada. Dice rápidamente de que va la entrada y su número.
+
+  <information> Es la información que se va a mostrar como tal. No debe de ser demasiado larga ni con saltos de línea porque puede no entrar en el espacio que tenemos actualmente.
+
+  <link> Enlace de interés sobre la información que estamos contando. Siempre debe haber uno y tiene que ser un enlace válido.
+
+  <association> Este campo dice si la entrada está asociada a una calle o no. Posibles opciones:
+    None, Alcazabilla, Canon, Cister, Compania, Constitucion, Granada, Larios, Merced, Molina, PlazaMarina, Postigo, SanAgustin, SantaMaria, Strachan.
+
+  <type> Este campo señaliza el tipo de contenido de la información. Posibles opciones:
+    None, Sport, Art, Politics, Geography, History, Science.
+
+  <epoch> Este campo dice si la información es sobre algo contemporáneo o pasado. Posibles opciones:
+    Current, Historic.
+
+  <position> Este campo señala si la información va a estar siempre colocada en el mismo lugar (como las de los carteles) o puede estar situada aleatoriamente en el mapa. Posibles opciones;
+    Random, SamePlace.
+
+  Para los campos de <association>, <type>, <epoch> y <position>, el texto de ellos tiene que ser exactamente una de las posibles opciones que vienen dadas,
+  si no, el programa no los leerá como válidos, y no se podrá clasificar dicha entrada.
+
+  Además, los Did You Know tienen una pregunta asociada que se podrá utilizar en el test final del juego. Esta está compuesta entre las etiquetas de <questionElement>.
+  El formato de dicha pregunta viene dado en el XML de las preguntas, QuestionsElements.xml.
+  Los últimos cuatro campos están repetidos ya en la propia información del Did You Know, asi que deben ser iguales (esto es debido a que el formato de las preguntas está definido aparte y no se le pueden quitar campos).
+
+  Cuando se quiera que el Did You Know no tenga una pregunta, se pone None en el campo de <association> de la pregunta.
+
+  -->
+
+  <didYouKnowElementsList  groupname= "Did You Know Texts">
+
+    <DidYouKnowElement elementId = "0">
+      <didYouKnowLabel>0 Nombre Calle Larios </didYouKnowLabel>
+      <information>La calle Marqués de Larios, también conocida como calle Larios, debe su nombre en honor a Manuel Domingo Larios y Larios, II Marqués de Larios, el cual preside el inicio de la calle con un conjunto escultórico de Benlliure situada en la intersección con la Alameda Principal. </information>
+      <link>https://es.wikipedia.org/wiki/Calle_Marqu%C3%A9s_de_Larios </link>
+      <association>Larios</association>
+      <type>Geography</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Por quién recibe la Calle Marqués de Larios su nombre?</title>
+        <answersList>
+          <string>Fernando Pérez de Larios</string>
+          <string>Isabel Larios Fernández</string>
+          <string>Manuel Domingo Larios y Larios</string>
+        </answersList>
+        <correctAnswer>2</correctAnswer>
+        <association>Larios</association>
+        <type>Geography</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "1">
+      <didYouKnowLabel>1 Victoria Kent </didYouKnowLabel>
+      <information>Victoria Kent se opuso al sufragio femenino en 1931, cuando se enfrentaría a otra feminista, Clara Campoamor, sobre una cuestión que repercutiría enormemente en los derechos de las mujeres. Su opinión era que la mujer española carecía en aquel momento de la suficiente preparación social y política y que, debido a la influencia de la Iglesia, su voto sería conservador y perjudicaría a la República. </information>
+      <link>https://es.wikipedia.org/wiki/Victoria_Kent </link>
+      <association>Larios</association>
+      <type>Politics</type>
+      <epoch>Historic</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Quién se enfrentó contra Victoria Kent en el debate sobre el sufragio femenino?</title>
+        <answersList>
+          <string>Clara Campoamor </string>
+          <string>María Espinosa de los Monteros</string>
+          <string>Isabel Oyarzábal Smith</string>
+        </answersList>
+        <correctAnswer>0</correctAnswer>
+        <association>Larios</association>
+        <type>Politics</type>
+        <epoch>Historic</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "2">
+      <didYouKnowLabel>2 Flamenco </didYouKnowLabel>
+      <information>En noviembre de 2010, la Unesco declaró el flamenco como Patrimonio Cultural Inmaterial de la Humanidad​ a iniciativa de las comunidades autónomas de Andalucía, Extremadura y Murcia. Además es Patrimonio Cultural Inmaterial Etnológico Andaluz y está inscrito en el Inventario General de Bienes Muebles de la Región de Murcia establecido por la Dirección General de Bellas Artes y Bienes Culturales. </information>
+      <link>https://es.wikipedia.org/wiki/Flamenco </link>
+      <association>Larios</association>
+      <type>Art</type>
+      <epoch>Historic</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Qué comunidad autónoma participó en la declaración del flamenco como Patrimonio Cultural Inmaterial de la Humanidad?</title>
+        <answersList>
+          <string>Castilla la Mancha </string>
+          <string>Comunidad Valenciana</string>
+          <string>Región de Murcia</string>
+        </answersList>
+        <correctAnswer>2</correctAnswer>
+        <association>Larios</association>
+        <type>Art</type>
+        <epoch>Historic</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "3">
+      <didYouKnowLabel>3 Feria Malaga </didYouKnowLabel>
+      <information>Una de las singularidades de la Feria de Málaga reside en la división de las zonas de celebración: la "Feria de día", en el centro de la ciudad, y la "Feria de noche" en el Cortijo de Torres, aunque en el recinto ferial se mantiene la actividad festiva durante toda la jornada.</information>
+      <link>http://feria.malaga.eu/ </link>
+      <association>Larios</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Dónde se realiza la "Feria de día" de la Feria de Málaga?</title>
+        <answersList>
+          <string>En el centro de la ciudad</string>
+          <string>En el Cortijo de Torres</string>
+          <string>En el puerto de Málaga</string>
+        </answersList>
+        <correctAnswer>0</correctAnswer>
+        <association>Larios</association>
+        <type>Art</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "4">
+      <didYouKnowLabel>4 Emilio Prados </didYouKnowLabel>
+      <information>Emilio Prados en el verano de 1924 funda y edita, junto a Manuel Altolaguirre, la revista Litoral, y que llegaría a convocar a autores como Jorge Guillén, Moreno Villa, Manuel de Falla, Pablo Picasso, Salvador Dalí, Ángeles Ortiz o Federico García Lorca. </information>
+      <link>https://es.wikipedia.org/wiki/Emilio_Prados </link>
+      <association>Larios</association>
+      <type>Art</type>
+      <epoch>Historic</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Cuál es el nombre de la revista que fundó Emilio Prados?</title>
+        <answersList>
+          <string>Sur</string>
+          <string>Litoral</string>
+          <string>Caracola</string>
+        </answersList>
+        <correctAnswer>1</correctAnswer>
+        <association>Larios</association>
+        <type>Art</type>
+        <epoch>Historic</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "5">
+      <didYouKnowLabel>5 Semana Santa </didYouKnowLabel>
+      <information>En Málaga cada cortejo procesional suele estar formado por dos tronos (Cristo y Virgen), y cada uno de ellos es acompañado por penitentes y promesas. Algo característico de Málaga es la escolta de los cuerpos militares y de seguridad del Estado a los Sagrados Titulares que veneran.</information>
+      <link>https://es.wikipedia.org/wiki/Semana_Santa_en_M%C3%A1laga </link>
+      <association>Larios</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Qué tienen de característico las procesiones de Semana Santa de Málaga?</title>
+        <answersList>
+          <string>Los cánticos realizados</string>
+          <string>El acompañamiento de variados animales</string>
+          <string>La escolta de cuerpos militares</string>
+        </answersList>
+        <correctAnswer>2</correctAnswer>
+        <association>Larios</association>
+        <type>Art</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "6">
+      <didYouKnowLabel>6 Yerma Teatro Cervantes </didYouKnowLabel>
+      <information>La sala de butacas del Teatro Cervantes se encuentra cubierta con un lienzo pintado al óleo en 1870 por Bernardo Ferrándiz llamado Alegoría de la Historia, Industria y Comercio de Málaga. Muestra un resumen alegórico de la ciudad al representar los signos de identificación de Málaga en el siglo XIX: la Industria, el Comercio y el Puerto.</information>
+      <link>https://es.wikipedia.org/wiki/Teatro_Cervantes_(M%C3%A1laga) </link>
+      <association>Larios</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Qué representa el lienzo que se encuentra en la sala de butacas del Teatro Cervantes?</title>
+        <answersList>
+          <string>La industria, el comercio y el puerto</string>
+          <string>La industria, el comercio y el clero</string>
+          <string>El comercio, el puerto y el clero.</string>
+        </answersList>
+        <correctAnswer>0</correctAnswer>
+        <association>Larios</association>
+        <type>Art</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "7">
+      <didYouKnowLabel>7 Teatro Romano Larios </didYouKnowLabel>
+      <information>El Teatro fue descubierto en 1951 en el transcurso de unas obras para la realización de un espacio ajardinado. En un principio los restos aparecidos se identificaron con uno de las puertas de la muralla. Poco después se vio que en realidad se trataba del Aditus Maximus de un edificio teatral de época romana. Dicho edificio se continuaba por debajo del edificio moderno de Archivos, Bibliotecas y Museos, conocido como Casa de la Cultura. </information>
+      <link>https://es.wikipedia.org/wiki/Teatro_Cervantes_(M%C3%A1laga) </link>
+      <association>Larios</association>
+      <type>History</type>
+      <epoch>Historic</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿En qué año fue descubierto el Teatro Romano de Málaga?</title>
+        <answersList>
+          <string>1948</string>
+          <string>1951</string>
+          <string>1960</string>
+        </answersList>
+        <correctAnswer>1</correctAnswer>
+        <association>Larios</association>
+        <type>History</type>
+        <epoch>Historic</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "8">
+      <didYouKnowLabel>8 Museo Picasso Larios </didYouKnowLabel>
+      <information>El Museo Picasso de Málaga está ubicado en el Palacio de los Condes de Buenavista, que fue en su origen un palacio residencia. De arquitectura renacentista, desde el siglo XVI fue uno de los edificios civiles más emblemáticos de la ciudad por su amplia parcela, privilegiada situación y su recia imagen exterior que le proporciona la poderosa torre mirador. </information>
+      <link>https://www.museopicassomalaga.org/ </link>
+      <association>Larios</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Cómo se llama el edificio donde está ubicado el Museo Picasso? </title>
+        <answersList>
+          <string>Palacio del Marqués de la Sonora</string>
+          <string>Palacio del Conde de las Navas</string>
+          <string>Palacio de los Condes de Buenavista</string>
+        </answersList>
+        <correctAnswer>2</correctAnswer>
+        <association>Larios</association>
+        <type>Art</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "9">
+      <didYouKnowLabel>9 Noche en Blanco </didYouKnowLabel>
+      <information>La Noche en Blanco es una iniciativa que permite vivir la cultura de una forma especial. Toda la ciudad y sus  visitantes salen a la calle esa noche para visitar museos, monumentos, escuchar conciertos y disfrutar de los cientos de actividades gratuitas que se ofrecen durante la tarde-noche. </information>
+      <link>https://www.lanocheenblancomalaga.com/ </link>
+      <association>Larios</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Qué actividad no es gratuita en la Noche en Blanco? </title>
+        <answersList>
+          <string>Cenar en bares</string>
+          <string>Visitar museos</string>
+          <string>Escuchar conciertos</string>
+        </answersList>
+        <correctAnswer>0</correctAnswer>
+        <association>Larios</association>
+        <type>Art</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "10">
+      <didYouKnowLabel>10 Cenachero </didYouKnowLabel>
+      <information>El cenachero es el pescador que en su cenacho o espuerta de esparto lleva el pescado fresco que pregona por las calles, haciendo bailar sus espuertas; un oficio ya desaparecido. El cenachero es, junto a la biznaga o el boquerón, un símbolo popular de la ciudad española de Málaga. </information>
+      <link>https://es.wikipedia.org/wiki/Cenachero</link>
+      <association>Larios</association>
+      <type>History</type>
+      <epoch>Historic</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Cuál es el oficio de un cenachero? </title>
+        <answersList>
+          <string>Limpiar las calles</string>
+          <string>Llevar pescado</string>
+          <string>Dar el toque de queda por la noche</string>
+        </answersList>
+        <correctAnswer>1</correctAnswer>
+        <association>Larios</association>
+        <type>History</type>
+        <epoch>Historic</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "11">
+      <didYouKnowLabel>11 Festival Cine </didYouKnowLabel>
+      <information>El Festival de Cine Español de Málaga proyecta los estrenos más relevantes del año del cine español, incluyendo documentales y cortometrajes. También concede premios a las mejores películas del año así como galardones honoríficos. El galardón principal es la Biznaga de Oro a la Mejor Película.</information>
+      <link>https://festivaldemalaga.com/</link>
+      <association>Larios</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Cómo se llama el premio dado en el Festival de Cine de Málaga a la mejor película? </title>
+        <answersList>
+          <string>El Cenacho de Oro</string>
+          <string>El Boquerón de Oro</string>
+          <string>La Biznaga de Oro</string>
+        </answersList>
+        <correctAnswer>2</correctAnswer>
+        <association>Larios</association>
+        <type>Art</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "12">
+      <didYouKnowLabel>12 Maria Zambrano </didYouKnowLabel>
+      <information>María Zambrano Alarcón fue una pensadora, filósofa y ensayista española. Su extensa obra, entre el compromiso cívico y el pensamiento poético, no fue reconocida en España hasta el último cuarto del siglo XX, tras un largo exilio. Ya anciana, recibió los dos máximos galardones literarios concedidos en España: el Premio Príncipe de Asturias y el Premio Cervantes.</information>
+      <link>https://es.wikipedia.org/wiki/Mar%C3%ADa_Zambrano</link>
+      <association>Larios</association>
+      <type>Art</type>
+      <epoch>Historic</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Qué galardón no recibió María Zambrano Alarcón? </title>
+        <answersList>
+          <string>Premio Nacional de Ensayo</string>
+          <string>Premio Cervantes</string>
+          <string>Premio Príncipe de Asturias</string>
+        </answersList>
+        <correctAnswer>0</correctAnswer>
+        <association>Larios</association>
+        <type>Art</type>
+        <epoch>Historic</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "13">
+      <didYouKnowLabel>13 Isabel Oyarzabal </didYouKnowLabel>
+      <information>Isabel Oyarzábal Smith fue una traductora, periodista, escritora, actriz y diplomática española. Debido a sus orígenes británicos, la malagueña tuvo un contacto permanente con las costumbres y la cultura de aquella sociedad. Estos viajes hicieron que fuese una mujer adelantada a su tiempo, independiente e inconformista con las costumbres más castizas de España, que no permitían el avance social y cultural de la población. </information>
+      <link>https://es.wikipedia.org/wiki/Isabel_Oyarz%C3%A1bal</link>
+      <association>Larios</association>
+      <type>History</type>
+      <epoch>Historic</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Además de española, que otros orígenes tenía Isabel Oyarzábal? </title>
+        <answersList>
+          <string>Francesa</string>
+          <string>Británica</string>
+          <string>Portuguesa</string>
+        </answersList>
+        <correctAnswer>1</correctAnswer>
+        <association>Larios</association>
+        <type>History</type>
+        <epoch>Historic</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "14">
+      <didYouKnowLabel>14 Alcalde Malaga </didYouKnowLabel>
+      <information>Francisco de la Torre Prados es alcalde de la ciudad de Málaga desde año 2000, la cual ha experimentado bajo su mandato un amplio desarrollo cultural y museístico de gran visibilidad internacional,​ que se ha reflejado en un incremento vertiginoso de las cifras turísticas de la ciudad a nivel nacional,​ y una amplia rehabilitación patrimonial del casco histórico.</information>
+      <link>https://es.wikipedia.org/wiki/Francisco_de_la_Torre_Prados</link>
+      <association>Constitucion</association>
+      <type>Politics</type>
+      <epoch>Current</epoch>
+      <position>Random</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿A qué partido pertenece el alcalde de Málaga? </title>
+        <answersList>
+          <string>PSOE</string>
+          <string>PP</string>
+          <string>Ciudadanos</string>
+        </answersList>
+        <correctAnswer>1</correctAnswer>
+        <association>Constitucion</association>
+        <type>Politics</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "15">
+      <didYouKnowLabel>15 Iglesia Plaza Constitución </didYouKnowLabel>
+      <information>La Iglesia del Santo Cristo de la Salud es declarada Bien de Interés Cultural en el año 2015 con la tipología de Monumento, junto con los demás edificios que constituyen el Antiguo Colegio Jesuita de San Sebastián.</information>
+      <link>https://es.wikipedia.org/wiki/Francisco_de_la_Torre_Prados</link>
+      <association>Compania</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿En qué año es declarada la Iglesia del Santo Cristo de la Salud Bien Cultural? </title>
+        <answersList>
+          <string>2015</string>
+          <string>2014</string>
+          <string>2016</string>
+        </answersList>
+        <correctAnswer>0</correctAnswer>
+        <association>Compania</association>
+        <type>Art</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "16">
+      <didYouKnowLabel>16 Museo Thyssen </didYouKnowLabel>
+      <information>El Museo Carmen Thyssen Málaga es uno de los principales museos de la ciudad española de Málaga. Fue inaugurado en 2011 y reúne una de las colecciones más importantes de pintura española y andaluza desde los inicios del siglo XIX hasta los comienzos de la modernidad en el XX, que recorre algunos de los géneros del arte español como el paisaje y el costumbrismo.</information>
+      <link>https://www.carmenthyssenmalaga.org/</link>
+      <association>Compania</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿En qué año fue inagurado el Museo Carmen Thyssen de Málaga? </title>
+        <answersList>
+          <string>2009</string>
+          <string>2010</string>
+          <string>2011</string>
+        </answersList>
+        <correctAnswer>2</correctAnswer>
+        <association>Compania</association>
+        <type>Art</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "17">
+      <didYouKnowLabel>17 Calle Granada 1 </didYouKnowLabel>
+      <information>A partir del 19 de agosto de 1487, cuando pasearon por Calle Granada los Reyes Católicos tras la toma de la ciudad, se denominó calle Real, pero más delante adoptó su nombre actual por ser lugar obligado para la salida en dirección a Granada, apareciendo en algunas fuentes como calle Real de Granada.</information>
+      <link>https://es.wikipedia.org/wiki/Calle_Granada</link>
+      <association>Granada</association>
+      <type>Geography</type>
+      <epoch>Current</epoch>
+      <position>Random</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Cuál es el nombre antiguo de la Calle Granada? </title>
+        <answersList>
+          <string>Calle Real</string>
+          <string>Calle Central</string>
+          <string>Calle Almería</string>
+        </answersList>
+        <correctAnswer>0</correctAnswer>
+        <association>Granada</association>
+        <type>Geography</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "18">
+      <didYouKnowLabel>18 Calle Granada 2</didYouKnowLabel>
+      <information>La calle Granada es una vía peatonal del centro histórico de la ciudad de española de Málaga. Se trata de uno de las principales ejes viales de la antigua madina de Malaqa, donde se asentaron las principales casas palacio de la época.</information>
+      <link>https://es.wikipedia.org/wiki/Calle_Granada</link>
+      <association>Granada</association>
+      <type>Geography</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Qué tipo de calle es la Calle Granada? </title>
+        <answersList>
+          <string>Peatonal</string>
+          <string>Carril bici</string>
+          <string>Tráfico rodado</string>
+        </answersList>
+        <correctAnswer>0</correctAnswer>
+        <association>Granada</association>
+        <type>Geography</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "19">
+      <didYouKnowLabel>19 Calle Strachan 1</didYouKnowLabel>
+      <information>La calle Strachan recibe su nombre en homenaje al arquitecto y director de las obras don Eduardo Strachan y Viana-Cárdenas</information>
+      <link>https://www.diariosur.es/prensa/20070307/malaga/tiempo-pasado-calle-strachan_20070307.html</link>
+      <association>Strachan</association>
+      <type>Geography</type>
+      <epoch>Historic</epoch>
+      <position>Random</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿En homenaje de quién recibe el nombre la calle Strachan? </title>
+        <answersList>
+          <string>Fernando Strachan</string>
+          <string>Eduardo Strachan</string>
+          <string>María Strachan</string>
+        </answersList>
+        <correctAnswer>1</correctAnswer>
+        <association>Strachan</association>
+        <type>Geography</type>
+        <epoch>Historic</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "20">
+      <didYouKnowLabel>20 Calle Canon</didYouKnowLabel>
+      <information>Situada en un costado lateral de la Catedral de Málaga, se encuentra la calle Cañon. Tomó este nombre porque hasta fecha no lejana (finales del siglo XIX, principios del XX) existió un cañón pequeño clavado en la entrada que da al Muelle.</information>
+      <link></link>
+      <association>Canon</association>
+      <type>Geography</type>
+      <epoch>Historic</epoch>
+      <position>Random</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿Dónde se encuentra la calle Cañon?</title>
+        <answersList>
+          <string>Al lado de la Catedral de Málaga</string>
+          <string>Al lado de la Alcazaba</string>
+          <string>Paralela a Calle Granada</string>
+        </answersList>
+        <correctAnswer>0</correctAnswer>
+        <association>Canon</association>
+        <type>Geography</type>
+        <epoch>Historic</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "21">
+      <didYouKnowLabel>21 Alcazaba</didYouKnowLabel>
+      <information>La alcazaba de Málaga es una fortificación palaciega de la época musulmana, construida sobre una anterior fortificación de origen fenicio-púnico. Se encuentra en las faldas del monte Gibralfaro, en una posición elevada pero contigua y unida al centro histórico de la ciudad, lo que constituía la antigua madina de Malaqa, y en cuya cumbre se halla el Castillo de Gibralfaro.</information>
+      <link>https://es.wikipedia.org/wiki/Alcazaba_de_M%C3%A1laga</link>
+      <association>Alcazabilla</association>
+      <type>Geography</type>
+      <epoch>Historic</epoch>
+      <position>Random</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>¿De qué época es la Alcazaba?</title>
+        <answersList>
+          <string>Fenicia</string>
+          <string>Romana</string>
+          <string>Musulmana</string>
+        </answersList>
+        <correctAnswer>2</correctAnswer>
+        <association>Alcazabilla</association>
+        <type>Geography</type>
+        <epoch>Historic</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "22">
+      <didYouKnowLabel>22 Master 1</didYouKnowLabel>
+      <information>El Máster en Creación de Videojuegos de la Universidad de Málaga cuenta con profesores que son profesionales con al menos 3 años de experiencia demostrada en trabajos relacionados con la temática del máster, con conocimientos suficientes o notable experiencia profesional en el campo de actividades propias del curso (diseño, programación o arte) con interés de plasmarlos en un formato digital tal como es el videojuego.</information>
+      <link>http://www.mastervideojuegos.uma.es/</link>
+      <association>PlazaMarina</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>Random</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>_</title>
+        <answersList>
+          <string>_</string>
+          <string>_</string>
+          <string>_</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "23">
+      <didYouKnowLabel>23 Wizards Tourney 1</didYouKnowLabel>
+      <information>Wizards Tourney es un party game para hasta cuatro jugadores en el que magos procedentes de todo el mundo compiten entre sí para demostrar quién es el más hábil y astuto. ¡Pon a prueba tu talento mágico y usa todos tus trucos para convertirte en el mejor! ¡Disponible en Steam!</information>
+      <link>https://store.steampowered.com/app/725110/Wizards_Tourney/</link>
+      <association>Merced</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>_</title>
+        <answersList>
+          <string>_</string>
+          <string>_</string>
+          <string>_</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "24">
+      <didYouKnowLabel>24 Wizards Tourney 2</didYouKnowLabel>
+      <information>¡Wizards Tourney también se encuentra disponible para PS4!</information>
+      <link>https://store.playstation.com/en-gb/product/EP5099-CUSA16306_00-WIZARDSTOURNEY00</link>
+      <association>Merced</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>_</title>
+        <answersList>
+          <string>_</string>
+          <string>_</string>
+          <string>_</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "25">
+      <didYouKnowLabel>25 Tutorial</didYouKnowLabel>
+      <information>¡Bienvenido/a a Adventures in Your City in Málaga! En este juego puedes explorar la ciudad de Málaga mientras que disfrutas de diferentes minijuegos y vas aprendiendo cosas sobre su cultura. ¡A jugar!</information>
+      <link>https://abonfireofsouls.com/</link>
+      <association>Larios</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel> Question 0 </questionLabel>
+        <title>_</title>
+        <answersList>
+          <string>_</string>
+          <string>_</string>
+          <string>_</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+  </didYouKnowElementsList>
+</DidYouKnowData>

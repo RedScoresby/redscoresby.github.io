@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextsData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <languageTextsList>
+    <LanguageTexts language="English">
+      <dialogueTextList groupName="Dialogue Texts">
+        <DialogueTexts dialogueId="Dialogue 0">
+          <dialogueLabel>Dialogue 0</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>¿Eres de Málaga?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+      </dialogueTextList>
+    </LanguageTexts>
+    <LanguageTexts language="Spanish">
+      <dialogueTextList groupName="Dialogue Texts">
+
+        <DialogueTexts dialogueId="Dialogue 0">
+          <dialogueLabel>Dialogue 0</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>¿Eres de Málaga?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>¿De qué te hablo?</header>
+              <answerTexts>
+                <string>Alcazaba.</string>
+                <string>Castillo.</string>
+                <string>Me voy</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>La alcazaba es muy bonita.</header>
+              <answerTexts>
+                <string>Háblame de otra cosa</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>El castillo es muy bonito.</header>
+              <answerTexts>
+                <string>Háblame de otra cosa</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>Entonces no te hablo de nada.</header>
+              <answerTexts>
+                <string>Pues vale...</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+
+        <DialogueTexts dialogueId="Dialogue 1">
+          <dialogueLabel>Dialogue 1</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>Estoy buscando algo...</header>
+              <answerTexts>
+                <string>Vale.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>Hola #PlayerName, ¿podrías encontrar mi llave?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>Se me ha debido caer por aquí</header>
+              <answerTexts>
+                <string>La encontraré.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>¡La has encontrado! Muchas gracias.</header>
+              <answerTexts>
+                <string>De nada.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>Oh! Vaya...</header>
+              <answerTexts>
+                <string>Lo siento...</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 5">
+              <nodeLabel>Node 5</nodeLabel>
+              <header>Gracias de nuevo por tu ayuda</header>
+              <answerTexts>
+                <string>Un placer.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+
+        <DialogueTexts dialogueId="Dialogue 2">
+          <dialogueLabel>Dialogue 2</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>
+                ¡Hola amigo!¿Me ayudas a preparar varios cafés malagueños?
+              </header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>Qué saborio ere...</header>
+              <answerTexts>
+                <string>Qué dise!!!</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>Prepara al menos tres cafés.</header>
+              <answerTexts>
+                <string>De acuerdo.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>¡Vaya!, debes ser un poco más rápido la próxima vez.</header>
+              <answerTexts>
+                <string>Volveré a probar</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>¡Oh! Has sido muy eficaz, gracias.</header>
+              <answerTexts>
+                <string>De nada. Toma este café para ti.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 5">
+              <nodeLabel>Node 5</nodeLabel>
+              <header>¿Quieres volver a intentarlo?</header>
+              <answerTexts>
+                <string>Sí.</string>
+              </answerTexts>
+              <answerTexts>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+
+        <DialogueTexts dialogueId="Dialogue 3">
+          <dialogueLabel>Dialogue 3</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>Hola ¿Me ayudas con los espetos?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>Te jinco la caña en un ojo...</header>
+              <answerTexts>
+                <string>Amo a calmarno</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>Ensarta el mayor número de sardinas con 5 cañas.</header>
+              <answerTexts>
+                <string>De acuerdo.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>Me temo que no es suficiente</header>
+              <answerTexts>
+                <string>Volveré a intentarlo...</string>
+                <string>Bueno... me voy</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>¡Genial, lo has conseguido!</header>
+              <answerTexts>
+                <string>Ole ole.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 5">
+              <nodeLabel>Node 5</nodeLabel>
+              <header>¿Quieres volver a intentarlo?</header>
+              <answerTexts>
+                <string>Sí.</string>
+              </answerTexts>
+              <answerTexts>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+
+        <DialogueTexts dialogueId="Dialogue 4">
+          <dialogueLabel>Dialogue 4</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>Hola ¿Me ayudas con los camperos?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>¡Prepara varios camperos!</header>
+              <answerTexts>
+                <string>De acuerdo.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>¡Genial, lo has conseguido!</header>
+              <answerTexts>
+                <string>Oleeee!</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>¿Quieres volver a intentarlo?</header>
+              <answerTexts>
+                <string>Sí.</string>
+              </answerTexts>
+              <answerTexts>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>¡Pero piensa en la gente con hambre de Málaga!</header>
+              <answerTexts>
+                <string>Hasta luego</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+
+        <DialogueTexts dialogueId="Dialogue 5">
+          <dialogueLabel>Dialogue 5</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>Hola ¿Quieres aprender palabras malagueñas?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>Une las palabras malagueñas con su significado</header>
+              <answerTexts>
+                <string>De acuerdo.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>¡Qué arte! ¡Lo has conseguido!</header>
+              <answerTexts>
+                <string>¡Genial!</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>¿Quieres volver a intentarlo?</header>
+              <answerTexts>
+                <string>Sí</string>
+              </answerTexts>
+              <answerTexts>
+                <string>No</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>Colega, ya te vale...</header>
+              <answerTexts>
+                <string>Mejor en otro momento</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+
+        <DialogueTexts dialogueId="Dialogue 6">
+          <dialogueLabel>Dialogue 6</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>Hola ¿Tocas verdiales conmigo?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>Usa las teclas de dirección para acompañar la música, acierta al menos 30 notas.</header>
+              <answerTexts>
+                <string>De acuerdo.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>Me temo que no has acertado suficientes notas.</header>
+              <answerTexts>
+                <string>Volveré a intentarlo...</string>
+                <string>Bueno... me voy</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>¡Genial, ha sonado perfecto!</header>
+              <answerTexts>
+                <string>De lujo.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>¿Quieres volver a jugar?</header>
+              <answerTexts>
+                <string>Sí</string>
+              </answerTexts>
+              <answerTexts>
+                <string>No</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 5">
+              <nodeLabel>Node 5</nodeLabel>
+              <header>Encima que ya había preparado todos los instrumentos...</header>
+              <answerTexts>
+                <string>Bueno, si eso luego... Chao </string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+
+        <DialogueTexts dialogueId="Dialogue 7">
+          <dialogueLabel>Dialogue 7</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>Hola ¿Me ayudas a completar el puzle?</header>
+              <answerTexts>
+                <string>Sí</string>
+                <string>No</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>Mueve las piezas hasta formar la imagen</header>
+              <answerTexts>
+                <string>De acuerdo.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>Qué arte! Lo has conseguido!</header>
+              <answerTexts>
+                <string>¡Genial!</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>¿Quieres volver a intentarlo?</header>
+              <answerTexts>
+                <string>Sí</string>
+              </answerTexts>
+              <answerTexts>
+                <string>No</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>¿Ya te vas? ¡Si esto es mover tres piezas!</header>
+              <answerTexts>
+                <string>Hasta luego</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+
+        <DialogueTexts dialogueId="Dialogue 8">
+          <dialogueLabel>Dialogue 8</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>Hola ¿Te animas a competir?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>Usa la barra espaciadora para impulsarte en el momento justo.</header>
+              <answerTexts>
+                <string>De acuerdo.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>Lástima, no has ganado la carrera</header>
+              <answerTexts>
+                <string>Volveré a intentarlo...</string>
+                <string>Bueno... me voy</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>¡Enhorabuena! Has ganado la carrera</header>
+              <answerTexts>
+                <string>¡Gracias!</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>¿Quieres volver a competir?</header>
+              <answerTexts>
+                <string>Sí.</string>
+              </answerTexts>
+              <answerTexts>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 5">
+              <nodeLabel>Node 5</nodeLabel>
+              <header>¡Encima que he montado todos los barcos yo solo!</header>
+              <answerTexts>
+                <string>Mmm... Adios.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+
+        <DialogueTexts dialogueId="Dialogue 9">
+          <dialogueLabel>Dialogue 9</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>¿Me ayudas a servir unos vinitos?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>Entrega la botella al cliente que la necesite en ese momento. </header>
+              <answerTexts>
+                <string>De acuerdo.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>Me temo que no has acertado suficientes lanzamientos.</header>
+              <answerTexts>
+                <string>Volveré a intentarlo...</string>
+                <string>Bueno... me voy</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>¡Genial, menudos lanzamientos!</header>
+              <answerTexts>
+                <string>¡Gracias!</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>¿Quieres jugar de nuevo?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 5">
+              <nodeLabel>Node 5</nodeLabel>
+              <header>¡Pero si un vasito siempre entra!</header>
+              <answerTexts>
+                <string>Mejor en otro momento.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+
+        <DialogueTexts dialogueId="Dialogue 10">
+          <dialogueLabel>Dialogue 10</dialogueLabel>
+          <dialogueNodeList>
+            <DialogueNodeTexts nodeId ="Node 0">
+              <nodeLabel>Node 0</nodeLabel>
+              <header>Hola ¿Me ayudas con los significados de las palabras?</header>
+              <answerTexts>
+                <string>Sí.</string>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 1">
+              <nodeLabel>Node 1</nodeLabel>
+              <header>Elige el significado correcto de la palabra entre todas las opciones</header>
+              <answerTexts>
+                <string>De acuerdo</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 2">
+              <nodeLabel>Node 2</nodeLabel>
+              <header>¡Pero si esto es to fácil!</header>
+              <answerTexts>
+                <string>Ya si eso luego</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 3">
+              <nodeLabel>Node 3</nodeLabel>
+              <header>Has estado cerca. ¿Quiéres probar de nuevo?</header>
+              <answerTexts>
+                <string>Venga, vamos a probar de nuevo</string>
+              </answerTexts>
+              <answerTexts>
+                <string>Pasando, es muy complicado</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 4">
+              <nodeLabel>Node 4</nodeLabel>
+              <header>¡Ya eres casi un boquerón más!</header>
+              <answerTexts>
+                <string>¡Gracias!</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+            <DialogueNodeTexts nodeId ="Node 5">
+              <nodeLabel>Node 5</nodeLabel>
+              <header>¿Quiéres volver a intentarlo?</header>
+              <answerTexts>
+                <string>Sí.</string>
+              </answerTexts>
+              <answerTexts>
+                <string>No.</string>
+              </answerTexts>
+            </DialogueNodeTexts>
+          </dialogueNodeList>
+        </DialogueTexts>
+      </dialogueTextList>
+      <questTexts gruoupName ="Quest Texts">
+
+        <QuestTexts questId = "Quest 0">
+          <questTitle>La llave de Paco</questTitle>
+          <missionTexts>
+            <string>Ve a hablar con Paco</string>
+            <string>Busca la llave</string>
+            <string>Dale a Paco la llave</string>
+          </missionTexts>
+        </QuestTexts>
+
+        <QuestTexts questId = "Quest 1">
+          <questTitle>El café malagueño</questTitle>
+          <missionTexts>
+            <string>Habla con el cafetero</string>
+            <string>Prepara tantos cafés como puedas</string>
+          </missionTexts>
+        </QuestTexts>
+
+        <QuestTexts questId = "Quest 2">
+          <questTitle>Espetos de sardinas</questTitle>
+          <missionTexts>
+            <string>Habla con el espetero</string>
+            <string>Prepara tantos espetos como puedas</string>
+          </missionTexts>
+        </QuestTexts>
+
+        <QuestTexts questId = "Quest 3">
+          <questTitle>Preparación de camperos</questTitle>
+          <missionTexts>
+            <string>Habla con el campechano</string>
+            <string>Ayuda al campechano (Prepara los camperos)</string>
+          </missionTexts>
+        </QuestTexts>
+
+        <QuestTexts questId = "Quest 4">
+          <questTitle>Hablando malagueño</questTitle>
+          <missionTexts>
+            <string>Habla con la traductora malagueña</string>
+            <string>Completa el juego de emparejar palabras malagueñas</string>
+          </missionTexts>
+        </QuestTexts>
+
+        <QuestTexts questId = "Quest 5">
+          <questTitle>Tocando verdiales</questTitle>
+          <missionTexts>
+            <string>Habla con el músico verdialero</string>
+            <string>Completa el juego de verdiales (Acierta al menos 10 notas)</string>
+          </missionTexts>
+        </QuestTexts>
+
+        <QuestTexts questId = "Quest 6">
+          <questTitle>Resolviendo puzzles</questTitle>
+          <missionTexts>
+            <string>Habla con el puzzleador</string>
+            <string>Completa el puzzle de la pared</string>
+          </missionTexts>
+        </QuestTexts>
+
+        <QuestTexts questId = "Quest 7">
+          <questTitle>Carrera de jábegas</questTitle>
+          <missionTexts>
+            <string>Habla con el marinero</string>
+            <string>Gana la carrera de jábegas</string>
+          </missionTexts>
+        </QuestTexts>
+
+        <QuestTexts questId = "Quest 8">
+          <questTitle>Barra de vinitos</questTitle>
+          <missionTexts>
+            <string>Habla con la de los vinos</string>
+            <string>Entrega vino a los clientes. </string>
+          </missionTexts>
+        </QuestTexts>
+
+        <QuestTexts questId = "Quest 9">
+          <questTitle>Significado de palabras</questTitle>
+          <missionTexts>
+            <string>Habla con la traductora</string>
+            <string>Elige el significado correcto de cada palabra</string>
+          </missionTexts>
+        </QuestTexts>
+      </questTexts>
+
+      <questionTexts>
+
+        <QuestionTexts questionId = "0">
+          <question>¿Por qué nombre se conoce a la catedral de Málaga?</question>
+          <answerList>
+            <string>La verdialera</string>
+            <string>La manquita</string>
+            <string>La boquerona</string>
+          </answerList>
+        </QuestionTexts>
+      </questionTexts>
+
+      <advancedViewInfoTexts>
+        <nameLabel>Nombre</nameLabel>
+        <yearLabel>Año</yearLabel>
+        <nomission>Sin misión asignada</nomission>
+      </advancedViewInfoTexts>
+
+      <analysisTextsList>
+
+        <AnalysisTexts analysisId = "0">
+          <headerText>Humano común</headerText>
+          <descriptionText>Se llama Paco y ha perdido algo. Podría ser enriquecedor ayudarlo en su búsqueda.</descriptionText>
+        </AnalysisTexts>
+      </analysisTextsList>
+    </LanguageTexts>
+  </languageTextsList>
+</TextsData>
