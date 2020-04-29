@@ -19,7 +19,7 @@
     None, Alcazabilla, Canon, Cister, Compania, Constitucion, Granada, Larios, Merced, Molina, PlazaMarina, Postigo, SanAgustin, SantaMaria, Strachan.
 
   <type> Este campo señaliza el tipo de contenido de la pregunta. Posibles opciones:
-    None, Sport, Art, Politics, Geography, History, Science.
+    None, Sport, Art, Politics, Geography, History, Science, Gastronomy.
 
   <epoch> Este campo dice si la pregunta es sobre algo contemporáneo o pasado. Posibles opciones:
     Current, Historic.
@@ -330,6 +330,111 @@
       <correctAnswer>1</correctAnswer>
       <association>Granada</association>
       <type>Geography</type>
+      <epoch>Current</epoch>
+      <position>Random</position>
+    </QuestionElement>
+
+    <QuestionElement questionId = "20">
+      <questionLabel>20 Que Es Espeto </questionLabel>
+      <title>¿Qué pescado cocinado es el que recibe el nombre de espeto?</title>
+      <answersList>
+        <string>Boquerones</string>
+        <string>Rosada</string>
+        <string>Sardinas</string>
+      </answersList>
+      <correctAnswer>2</correctAnswer>
+      <association>Alcazabilla</association>
+      <type>Gastronomy</type>
+      <epoch>Current</epoch>
+      <position>Random</position>
+    </QuestionElement>
+
+    <QuestionElement questionId = "21">
+      <questionLabel>21 Ingredientes Gazpachuelo </questionLabel>
+      <title>¿Qué ingrediente no lleva el gazpachuelo?</title>
+      <answersList>
+        <string>Patatas</string>
+        <string>Pollo</string>
+        <string>Huevo</string>
+      </answersList>
+      <correctAnswer>1</correctAnswer>
+      <association>Molina</association>
+      <type>Gastronomy</type>
+      <epoch>Current</epoch>
+      <position>Random</position>
+    </QuestionElement>
+
+    <QuestionElement questionId = "22">
+      <questionLabel>22 Locas Postre </questionLabel>
+      <title>¿Qué tipo de plato es una loca?</title>
+      <answersList>
+        <string>Dulce</string>
+        <string>Sopa</string>
+        <string>Carne</string>
+      </answersList>
+      <correctAnswer>0</correctAnswer>
+      <association>Constitucion</association>
+      <type>Gastronomy</type>
+      <epoch>Current</epoch>
+      <position>Random</position>
+    </QuestionElement>
+
+    <QuestionElement questionId = "23">
+      <questionLabel>23 Ajoblanco Almendras </questionLabel>
+      <title>¿Qué ingrediente es esencial en la preparación del ajoblanco?</title>
+      <answersList>
+        <string>Cacahuetes</string>
+        <string>Nueces</string>
+        <string>Almendras</string>
+      </answersList>
+      <correctAnswer>2</correctAnswer>
+      <association>Cister</association>
+      <type>Gastronomy</type>
+      <epoch>Current</epoch>
+      <position>Random</position>
+    </QuestionElement>
+
+    <QuestionElement questionId = "24">
+      <questionLabel>24 Porra Antequerana </questionLabel>
+      <title>¿Qué diferencia hay entre la porra antequerana y el gazpacho?</title>
+      <answersList>
+        <string>La cantidad de pimiento</string>
+        <string>La cantidad de ajo</string>
+        <string>La cantidad de pan</string>
+      </answersList>
+      <correctAnswer>2</correctAnswer>
+      <association>Molina</association>
+      <type>Gastronomy</type>
+      <epoch>Current</epoch>
+      <position>Random</position>
+    </QuestionElement>
+
+    <QuestionElement questionId = "25">
+      <questionLabel>25 Campero Pan </questionLabel>
+      <title>¿Qué tipo de pan se usa para hacer un campero?</title>
+      <answersList>
+        <string>Una barra de pan</string>
+        <string>Un pitufo</string>
+        <string>Un mollete</string>
+      </answersList>
+      <correctAnswer>2</correctAnswer>
+      <association>Granada</association>
+      <type>Gastronomy</type>
+      <epoch>Current</epoch>
+      <position>Random</position>
+    </QuestionElement>
+
+    <QuestionElement questionId = "26">
+      <questionLabel>26 Jábegas barca </questionLabel>
+      <title>¿Qué tipo de método usa una jábega para moverse?</title>
+      <answersList>
+        <string>Vela</string>
+        <string>Motor</string>
+        <string>Remo</string>
+      </answersList>
+      <correctAnswer>2</correctAnswer>
+      <association>Molina</association>
+      <type>History</type>
       <epoch>Current</epoch>
       <position>Random</position>
     </QuestionElement>
