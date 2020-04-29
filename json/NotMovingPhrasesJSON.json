@@ -1,0 +1,32 @@
+{
+  "NotMovingPhrasesData": {
+    "notMovingPhrasesList": {
+      "NotMovingPhrase": [
+        {
+          "notMovingPhraseLabel": "0 Illo",
+          "phrase": "Illo, llevas mucho en este sitio. ¡Prueba a mirar en otra calle!"
+        },
+
+        {
+          "notMovingPhraseLabel": "1 Espabila",
+          "phrase": "¡Espabila tío! ¡Llevas aquí ya un siglo y medio!"
+        },
+
+        {
+          "notMovingPhraseLabel": "2 Mueve el culo",
+          "phrase": "Esta calle ya te la sabes, ¡mueve el culo a otra!"
+        },
+
+        {
+          "notMovingPhraseLabel": "3 Loco",
+          "phrase": "¡Loco, aprovecha el tiempo y explora otros lugares!"
+        },
+        
+        {
+          "notMovingPhraseLabel": "4 Enga",
+          "phrase": "¡Enga tío! ¡Es hora de ver que hay más allá!"
+        }
+      ]
+    }
+  }
+}
