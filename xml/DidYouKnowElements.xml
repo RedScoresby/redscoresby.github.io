@@ -476,7 +476,7 @@
       <association>Granada</association>
       <type>Geography</type>
       <epoch>Current</epoch>
-      <position>SamePlace</position>
+      <position>Random</position>
       <questionElement questionId = "0">
         <questionLabel> Question 0 </questionLabel>
         <title>¿Qué tipo de calle es la Calle Granada? </title>
@@ -489,7 +489,7 @@
         <association>Granada</association>
         <type>Geography</type>
         <epoch>Current</epoch>
-        <position>SamePlace</position>
+        <position>Random</position>
       </questionElement>
     </DidYouKnowElement>
 
