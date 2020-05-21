@@ -948,5 +948,221 @@
         <position>Random</position>
       </questionElement>
     </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "38">
+      <didYouKnowLabel>38 Alcazaba Fijo 1</didYouKnowLabel>
+      <information>Estás viendo una fortificación palaciega de la época musulmana, construida sobre una anterior fortificación de origen fenicio-púnico.2​ Se encuentra en las faldas del monte Gibralfaro, en una posición elevada pero contigua y unida al centro histórico de la ciudad, lo que constituía la antigua madina de Mālaqa, y en cuya cumbre se halla el Castillo de Gibralfaro. (Wikipedia, mayo 2020)</information>
+      <link>https://es.wikipedia.org/wiki/Alcazaba_de_M%C3%A1laga</link>
+      <association>Alcazabilla</association>
+      <type>Geography</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel></questionLabel>
+        <title>-</title>
+        <answersList>
+          <string>-</string>
+          <string>-</string>
+          <string>-</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "39">
+      <didYouKnowLabel>39 Casa Picasso 1</didYouKnowLabel>
+      <information>La Fundación Picasso Museo Casa Natal es una institución cultural con sede en la ciudad española de Málaga que tiene como objetivo la promoción y difusión de la obra del pintor Pablo Picasso. Creada por el ayuntamiento de Málaga en 1988, está ubicada en el inmueble de la Casa Natal de Picasso, en las denominadas Casas de Campos de la Plaza de la Merced. (Wikipedia, mayo 2020)</information>
+      <link>https://es.wikipedia.org/wiki/Fundaci%C3%B3n_Picasso_Museo_Casa_Natal</link>
+      <association>Merced</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel></questionLabel>
+        <title>-</title>
+        <answersList>
+          <string>-</string>
+          <string>-</string>
+          <string>-</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "40">
+      <didYouKnowLabel>40 Catedral 1</didYouKnowLabel>
+      <information>La Santa Iglesia Catedral Basílica de la Encarnación es la catedral de Málaga, en España. Situada enfrente de la plaza del Obispo, el templo es considerado una de las joyas renacentistas más valiosas de Andalucía. Se encuentra dentro de los límites que marcaba la desaparecida muralla árabe sobre el solar de la primitiva mezquita aljama. (Wikipedia, mayo 2020)</information>
+      <link>https://es.wikipedia.org/wiki/Catedral_de_M%C3%A1laga</link>
+      <association>Molina</association>
+      <type>Geography</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel></questionLabel>
+        <title>-</title>
+        <answersList>
+          <string>-</string>
+          <string>-</string>
+          <string>-</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "41">
+      <didYouKnowLabel>41 Museo Picasso 2</didYouKnowLabel>
+      <information>Las doscientas ochenta y cinco obras que reúne la colección Museo Picasso Malaga abarcan las innovaciones revolucionarias de Picasso, así como la amplia variedad de estilos, materiales y técnicas que dominó. Desde los primeros estudios académicos a su visión del clasicismo, pasando por los planos superpuestos del cubismo, cerámicas, sus interpretaciones de los grandes maestros y las últimas pinturas de los setenta. (Wikipedia, mayo 2020)</information>
+      <link>https://es.wikipedia.org/wiki/Museo_Picasso_M%C3%A1laga</link>
+      <association>Cister</association>
+      <type>Art</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel></questionLabel>
+        <title>-</title>
+        <answersList>
+          <string>-</string>
+          <string>-</string>
+          <string>-</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "42">
+      <didYouKnowLabel>42 Palacio Episcopal</didYouKnowLabel>
+      <information>El Palacio Episcopal de Málaga se encuentra en la Plaza del Obispo, muy próximo a la Catedral de Málaga. Fue construido bajo el patrocinio del arzobispo José Francisco Lasso de Castilla a partir del año 1762. Sus trazas se deben al arquitecto Antonio Ramos, quien a la muerte de José de Bada en 1756 continúa con las obras que éste realizaba para la catedral. (Wikipedia, mayo 2020)</information>
+      <link>https://es.wikipedia.org/wiki/Palacio_Episcopal_de_M%C3%A1laga</link>
+      <association>Molina</association>
+      <type>Geography</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel></questionLabel>
+        <title>-</title>
+        <answersList>
+          <string>-</string>
+          <string>-</string>
+          <string>-</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "43">
+      <didYouKnowLabel>43 Parroquia Santiago</didYouKnowLabel>
+      <information>El valor histórico de la iglesia de Santiago Apóstol se encuentra fuertemente ligado con la historia de la ciudad, ya que tras la reconquista cristiana, en 1487, se inicia su construcción, siendo la primera de las cuatro parroquias erigidas por los Reyes Católicos una por collación, existentes en la Edad Media a intramuros de la ciudad islámica. Ejerció como Catedral hasta la finalización del templo catedralicio. (Wikipedia, mayo 2020)</information>
+      <link>https://es.wikipedia.org/wiki/Iglesia_de_Santiago_Ap%C3%B3stol_(M%C3%A1laga)</link>
+      <association>Granada</association>
+      <type>History</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel></questionLabel>
+        <title>-</title>
+        <answersList>
+          <string>-</string>
+          <string>-</string>
+          <string>-</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "44">
+      <didYouKnowLabel>44 Torre Sefardi</didYouKnowLabel>
+      <information>El Centro de Recepción de Visitantes Ben Gabirol es un edificio localizado en un torreón mudéjar restaurado en la antigua judería del centro histórico de la ciudad andaluza de Málaga, España. Se trata de una casa-torre del siglo XVII construida en ladrillo con elementos mudéjarizantes que conserva restos de pintura mural. (Wikipedia, mayo 2020) )</information>
+      <link>https://es.wikipedia.org/wiki/Centro_Ben_Gabirol</link>
+      <association>Granada</association>
+      <type>Geography</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel></questionLabel>
+        <title>-</title>
+        <answersList>
+          <string>-</string>
+          <string>-</string>
+          <string>-</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "45">
+      <didYouKnowLabel>45 Museo Malaga</didYouKnowLabel>
+      <information>El Museo de Málaga es un centro expositivo de la ciudad que da cabida a las colecciones de dos instituciones museísticas malacitanas, el Museo de Bellas Artes de Málaga y el Museo Arqueológico Provincial de Málaga, contando con más de 15.000 referencias en arqueología y una amplia colección pictórica de 2.000 obras producidas entre los siglos XIX y XX. Es el quinto museo más grande de España y el mayor de Andalucía. (Wikipedia, mayo 2020)</information>
+      <link>https://es.wikipedia.org/wiki/Museo_de_M%C3%A1laga</link>
+      <association>Alcazabilla</association>
+      <type>Geography</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel></questionLabel>
+        <title>¿Qué categoría de arte no se encuentra en el Museo de Málaga?</title>
+        <answersList>
+          <string>Bellas Artes</string>
+          <string>Danza y baile</string>
+          <string>Arqueología</string>
+        </answersList>
+        <correctAnswer>1</correctAnswer>
+        <association>Alcazabilla</association>
+        <type>Art</type>
+        <epoch>Current</epoch>
+        <position>SamePlace</position>
+      </questionElement>
+    </DidYouKnowElement>
+
+    <DidYouKnowElement elementId = "46">
+      <didYouKnowLabel>46 Teatro Romano 2</didYouKnowLabel>
+      <information>El teatro romano de Málaga son los restos arqueológicos del teatro de la Malaca antigua y el principal vestigio conservado de la presencia romana en Málaga. Su diseño corresponde a una construcción mixta que combina el aprovechamiento de la ladera del cerro para el graderío con una importante construcción allí donde la roca es inexistente, creando el espacio necesario para las gradas. (Wikipedia, mayo 2020)</information>
+      <link>https://es.wikipedia.org/wiki/Teatro_romano_de_M%C3%A1laga</link>
+      <association>Alcazabilla</association>
+      <type>History</type>
+      <epoch>Current</epoch>
+      <position>SamePlace</position>
+      <questionElement questionId = "0">
+        <questionLabel></questionLabel>
+        <title>-</title>
+        <answersList>
+          <string>-</string>
+          <string>-</string>
+          <string>-</string>
+        </answersList>
+        <correctAnswer>-1</correctAnswer>
+        <association>None</association>
+        <type>None</type>
+        <epoch>Current</epoch>
+        <position>Random</position>
+      </questionElement>
+    </DidYouKnowElement>
   </didYouKnowElementsList>
 </DidYouKnowData>

@@ -25,5 +25,15 @@
       <notMovingPhraseLabel>4 Enga</notMovingPhraseLabel>
       <phrase>¡Enga tío! ¡Es hora de ver que hay más allá!</phrase>
     </NotMovingPhrase>
+
+    <NotMovingPhrase elementId = "5">
+      <notMovingPhraseLabel>5 Alcazaba</notMovingPhraseLabel>
+      <phrase>¿Has visitado la Alcazaba?</phrase>
+    </NotMovingPhrase>
+
+    <NotMovingPhrase elementId = "6">
+      <notMovingPhraseLabel>6 No de aquí</notMovingPhraseLabel>
+      <phrase>Espabila, tú no eres de aquí, ¿no?</phrase>
+    </NotMovingPhrase>
   </notMovingPhrasesList>
 </NotMovingPhrasesData>
