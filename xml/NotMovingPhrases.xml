@@ -35,5 +35,10 @@
       <notMovingPhraseLabel>6 No de aquí</notMovingPhraseLabel>
       <phrase>Espabila, tú no eres de aquí, ¿no?</phrase>
     </NotMovingPhrase>
+
+    <NotMovingPhrase elementId = "7">
+      <notMovingPhraseLabel>7 Cafe</notMovingPhraseLabel>
+      <phrase>Tómate un cafelito que te veo durmiendo</phrase>
+    </NotMovingPhrase>
   </notMovingPhrasesList>
 </NotMovingPhrasesData>
